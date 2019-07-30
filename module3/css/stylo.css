@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    background-color: whitesmoke;
+}
+
+#titulek {
+    text-align: center;
+    margin-top: 2rem;
+    color: blue;
+    font-family: 'Patrick Hand', cursive;
+}
