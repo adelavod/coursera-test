@@ -2,12 +2,64 @@
 
 body {
     font-family: 'Patrick Hand', cursive;
+    font-size: 1.5em;
     background-color: whitesmoke;
+}
+/*
+
+.navbar{
+    background-color: darkgray;
+}
+
+.navbar-brand{
+    font-size: 2em;
+    color: black;
+}
+
+#navbar{
+    background-color: darkgray;
+}
+
+ */
+
+.navbar-custom {
+    background-color: darkgray;
+    border-bottom: black 3px solid;
+    padding: 0;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+    font-size: 2rem;
+    border-bottom: none;
+    padding: 5%;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-top: 3px solid black;
+    margin: 0;
+    padding: 2%
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: hotpink;
+}
+
+.container{
+    background-color: darkgray;
+    margin-bottom: 20px;
+}
+
+h2 {
+font-size: 2em;
 }
 
 #titulek {
     text-align: center;
-    margin-top: 2rem;
-    color: blue;
-    font-family: 'Patrick Hand', cursive;
+    padding: 3%;
 }
